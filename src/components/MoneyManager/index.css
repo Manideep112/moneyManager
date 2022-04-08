@@ -1,0 +1,121 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  width: 80%;
+}
+
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  font-family: Roboto;
+  border-radius: 5px;
+  padding: 10px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.heading {
+  color: #475569;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.paragraph2 {
+  color: #475569;
+  margin-left: 40px;
+}
+
+.span-element {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.unordered-list {
+  display: flex;
+  padding: 0px;
+}
+
+.transactions-container {
+  display: flex;
+}
+
+.transaction-add-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: Roboto;
+  align-items: flex-start;
+}
+
+.transactions-details {
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.transactions-details1 {
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  width: 50%;
+  padding: 10px;
+  margin-right: 40px;
+}
+
+.transaction-heading {
+  font-size: 20px;
+  color: #1e293b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.label-heading {
+  color: #7e858e;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.input-element {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 200px;
+  outline: none;
+}
+
+.button-style {
+  padding: 10px;
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.transactions {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  justify-content: space-around;
+}
+
+.transaction-titles {
+  font-family: Roboto;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.transactions-list-container1 {
+  padding: 0px;
+}

@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.bgGreen {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 10px;
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  font-family: Roboto;
+  justify-content: space-around;
+  height: 100px;
+  width: 33%;
+  margin-right: 20px;
+}
+
+.bgBlue {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 10px;
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  font-family: Roboto;
+  justify-content: space-around;
+  height: 100px;
+  margin-right: 20px;
+  width: 33%;
+}
+.bgViolet {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 10px;
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  font-family: Roboto;
+  justify-content: space-around;
+  height: 100px;
+  margin-right: 20px;
+  width: 33%;
+}
+
+.img-size {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.heading1 {
+  font-size: 20px;
+  color: #7e858e;
+}
+
+.paragraph1 {
+  color: #7e858e;
+}
