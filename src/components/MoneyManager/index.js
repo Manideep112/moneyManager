@@ -51,7 +51,7 @@ class MoneyManager extends Component {
     const filteredList = transactionsList.filter(
       eachtransaction => eachtransaction.id !== id,
     )
-    if (selection === 'INCOME') {
+    if (selection === 'Income') {
       totalBalance -= parseInt(income)
       balanceIncome -= income
     } else {
@@ -88,11 +88,13 @@ class MoneyManager extends Component {
       total = totalBalance - income
     }
 
+    const displayText = selection === 'INCOME' ? 'Income' : 'Expenses'
+
     const transaction = {
       id: uuidv4(),
       title,
       income,
-      selection,
+      selection: displayText,
     }
 
     this.setState({
